@@ -1,0 +1,73 @@
+{
+    "name": "jsactionsappstarter",
+    "version": "1.0.0",
+    "description": "JSactions HelloWorld Application Starter ",
+    "keywords": [
+        "jsactions",
+        "es6",
+        "router",
+        "event",
+        "binding",
+        "view",
+        "mvc"
+    ],
+    "homepage": "https://github.com/jsactions/jsactionshelloworld#readme",
+    "url": "https://npmjs.com/package/jsactions/jsactionsappstarter",
+    "bugs": "https://github.com/jsactions/jsactionsappstarter/issues",
+    "license": "MIT",
+    "contributors": [
+        "Gaurang Lade <glade78@gmail.com> (https://github.com/glade78)"
+    ],
+    "main": "dist/jsactionsappstarter.js",
+    "module": "dist/jsactionsappstarter.module.js",
+    "browser": "dist/jsactionsappstarter.min.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jsactions/jsactionsappstarter.git"
+    },
+    "npmName": "jsactionsappstarter",
+    "npmFileMap": [
+        {
+            "basePath": "dist",
+            "files": [
+                "**/*"
+            ]
+        }
+    ],
+    "directories": {
+        "doc": "docs",
+        "lib": "dist",
+        "test": "tests"
+    },
+    "scripts": {
+        "preinstall": "npx npm-force-resolutions",
+        "build": "rollup -c",
+        "dev": "rollup -c --watch",
+        "reload": "livereload 'dist/'",
+        "watch": "npm-run-all --parallel dev reload",
+        "test": "echo \"No test specified\""
+    },
+    "author": "Gaurang Lade",
+    "resolutions": {
+        "http-cache-semantics": "^4.1.1",
+        "ansi-regex": "^3.0.1",
+        "got": "^11.8.5"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5",
+        "rollup": "^1.32.1",
+        "rollup-plugin-alias": "^2.2.0",
+        "rollup-plugin-copy": "^3.4.0",
+        "rollup-plugin-esm-import-to-url": "^2.1.0",
+        "rollup-plugin-livereload": "^2.0.5",
+        "rollup-plugin-serve": "^1.1.0",
+        "rollup-plugin-terser": "^5.3.1",
+        "rollup-watch": "^3.0.0",
+        "source-map": "^0.6.1",
+        "source-map-support": "^0.5.21"
+    },
+    "engine": "node >= 8.9.4",
+    "dependencies": {
+        "jsactions": "^1.0.0"
+    }
+}
