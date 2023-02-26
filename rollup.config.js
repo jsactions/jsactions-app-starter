@@ -28,7 +28,7 @@ export default [
         }),
         esmImportToUrl({
             imports: {
-                'jsactions': 'http://localhost:10002/module/jsactions.js',
+                'jsactions': 'http://localhost:10001/module/jsactions.js',
             }
         }),
         copy({
@@ -58,7 +58,7 @@ export default [
         }),
         esmImportToUrl({
             imports: {
-                'jsactions': 'http://localhost:10002/module/jsactions.js',
+                'jsactions': 'http://localhost:10001/module/jsactions.js',
             }
         }),
         terser({
