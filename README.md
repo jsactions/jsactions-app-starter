@@ -1,11 +1,11 @@
-# Vyanjs App Starter
+# JSactions App Starter
 
 ## Boilerplate and Helloworld Example
 
 ## Demonstrate
 
 * HelloWorld Example
-* How to create use Vyanjs Application, ViewManager, ViewNavigator in application.
+* How to create use JSactions Application, ViewManager, ViewNavigator in application.
 * How to Create Custom View (page)
 * How to Create Custom Component
 * How to Generate Navigation Event
