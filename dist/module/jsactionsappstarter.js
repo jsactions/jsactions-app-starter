@@ -1,4 +1,4 @@
-import { Component, EventUtils, EventDispatcher, View as View$1, BindingUtils, ElementUtils, ViewNavigator, EventRouter, ViewManager, Router, NavigationEvent, EventBroadCaster } from 'http://localhost:10002/module/jsactions.js';
+import { Component, EventUtils, EventDispatcher, View as View$1, BindingUtils, ElementUtils, ViewNavigator, EventRouter, ViewManager, Router, NavigationEvent, EventBroadCaster } from 'https://www.unpkg.com/@jsactionsframework/jsactions@1.0.2/dist/jsactions.min.js';
 
 class MyButton extends Component {
 

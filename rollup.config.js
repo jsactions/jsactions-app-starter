@@ -28,7 +28,7 @@ export default [
         }),
         esmImportToUrl({
             imports: {
-                'jsactions': 'http://localhost:10001/module/jsactions.js',
+                'jsactions': 'https://www.unpkg.com/@jsactionsframework/jsactions@1.0.2/dist/jsactions.min.js',
             }
         }),
         copy({
@@ -58,7 +58,7 @@ export default [
         }),
         esmImportToUrl({
             imports: {
-                'jsactions': 'http://localhost:10001/module/jsactions.js',
+                'jsactions': 'https://www.unpkg.com/@jsactionsframework/jsactions@1.0.2/dist/jsactions.min.js',
             }
         }),
         terser({
@@ -71,7 +71,7 @@ export default [
             openPage: '/index.html',
             contentBase: ['dist'],
             host: 'localhost',
-            port: 10001
+            port: 10002
         }),
         livereload('dist')
     ]

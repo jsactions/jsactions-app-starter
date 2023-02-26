@@ -68,6 +68,6 @@
     },
     "engine": "node >= 8.9.4",
     "dependencies": {
-        "jsactions": "^1.0.0"
+        "@jsactionsframework/jsactions": "^1.0.2"
     }
 }
