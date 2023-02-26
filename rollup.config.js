@@ -71,7 +71,7 @@ export default [
             openPage: '/index.html',
             contentBase: ['dist'],
             host: 'localhost',
-            port: 10002
+            port: 10001
         }),
         livereload('dist')
     ]
